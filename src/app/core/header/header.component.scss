@@ -1,0 +1,25 @@
+:root{
+    --layout-surface-base: #FFFFFF;
+}
+
+.header-property{
+    display: flex;
+    width: 100%;
+    padding: 16px 16px 16px 40px;
+    align-items: flex-end;
+    gap: 40px;
+    border-bottom: 1px solid var(--layout-border, #E1E5EA);
+    background: var(--layout-surface-base, #FFF);
+
+    .frame{
+        display: flex;
+        align-items: center;
+        flex: 1 0 0;  
+        .img{
+            width: 160px;
+            height: 34px;
+            flex-shrink: 0; 
+        }
+    }
+}
+
